@@ -258,7 +258,22 @@ export const contractAddress = "0x3F02Eeef513...e2a437d9cB5";
 
 Now you are ready to write code to connect **Smart Contracts** and **Nodejs**.
 
-Thank you! CodeLek Team.
+When you have developed the frontend part also, now time to host your react app to production.
+
+Simply run the command below and your react app will build the files for production ready.
+```sh
+# Go to client folder
+cd client/
+
+# Now run this command
+npm run build
+```
+Wait a little. After process finished you can see a folder called dist. Simply go to your hosting root and upload all files and folders as it is which is in your dist folder, to your hosting root.
+
+Congrats! You are now ready at your frontend also. 
+Go and open your Domain and you will see everything there.
+
+Thank you! from CodeLek & Team.
 
 ## License
 
