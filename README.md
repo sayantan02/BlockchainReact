@@ -109,6 +109,11 @@ npm init -y
 ```sh
 npm install --save-dev hardhat @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' chai @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
 ```
+**Or**
+```sh
+npm install --save-dev "hardhat@^2.12.6" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+```
+
 After successful installation (There can be some warnings and issues, ignore that for now) now run this command:
 
 ```sh
